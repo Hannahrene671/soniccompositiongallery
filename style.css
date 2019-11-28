@@ -1,0 +1,250 @@
+body{
+	background-image: url("soundwave28.gif");
+	background-repeat: none;
+	background: cover;
+padding: 0;
+margin: 0;
+}
+
+
+.lyrics h1{
+	color: blue ;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 35px;
+}
+
+.lyrics marquee{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	padding:0;
+	position: fixed;
+	z-index: 25;
+}
+
+.lyricsweek2 h1{
+	color:blue;
+	font-family:'Shrikhand', regular;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.lyricsweek2 marquee{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	padding:0;
+	position: fixed;
+	z-index: 25;
+}
+
+
+.lyricsweek3 h1{
+	color:blue;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px bold;
+}
+
+.lyricsweek3 marquee{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	padding:0;
+	position: fixed;
+	z-index: 25;
+}
+
+.lyricsweek5 h1{
+	color:blue;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px bold;
+}
+
+.lyricsweek5 marquee{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	padding:0;
+	position: fixed;
+	z-index: 25;
+}
+
+.lyricsweek6 h1{
+	color:blue;
+	font-family: 'Ranga', cursive;
+	font-size: 100px bold;
+	letter-spacing: 3px;
+}
+
+.lyricsweek6 marquee{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	padding:0;
+	position: fixed;
+	z-index: 25;
+
+}
+
+.audio{
+	padding: 0;
+	position: absolute;
+	top:88%;
+	left:75%;
+	z-index: 35;
+}
+
+.infobar {
+	color:white;
+	width:20%;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	font-family: 'Roboto Mono', monospace;
+	left:10px;
+	z-index: 30;
+	
+}
+
+
+.infobar p{
+	font-size: 11px;	
+}
+
+.infobar a{
+	color: white;
+	text-decoration: none;
+}
+
+.infobar a:hover {
+	color: yellow;
+}
+
+.albumcover img {
+	width: 125px;
+}
+
+.albumcover {
+	position: absolute;
+	left: 85%;
+	top: 67%;
+}
+
+
+.rotating-box{
+	width:400px;
+	height:400px;
+	margin:10px auto;
+	perspective: 800px;
+}
+
+
+
+
+.single-rb{
+	width:400px;
+	animation: rotate 15s linear infinite;
+	transform-style: preserve-3d;
+	margin-top: 170px;
+}
+
+
+
+.single-rb img{
+	height:400px;
+	width:400px;
+}
+
+
+
+
+.single-rb div{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+
+
+
+
+
+
+.front-side{
+	transform: translateZ(200px);
+}
+
+
+
+
+
+
+.back-side{
+	transform: rotateY(180deg)
+	translateZ(200px);
+}
+
+
+
+
+
+.left-side{
+	transform: rotateY(-90deg)
+	translateX(-200px);
+	transform-origin: left;
+}
+
+
+
+
+.right-side{
+	transform: rotateY(90deg) 
+	translateX(200px);
+	transform-origin: right;
+}
+
+
+
+
+
+
+.top-side{
+	transform: rotateX(-90deg) 
+	translateY(-200px);
+	transform-origin: top;
+}
+
+
+
+
+.bottom-side{
+	transform: rotateX(90deg) 
+	translateY(200px);
+	transform-origin: bottom;
+}
+
+
+
+
+
+@keyframes rotate {
+	0%{transform: rotateX(0);}
+	100% {transform: rotateY(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
