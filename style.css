@@ -124,7 +124,7 @@ $(startVideoIfNotStarted);
 	width:10%;
 	position:absolute;
 	top:6%;
-	left:86%;
+	left:88%;
 	font-family: 'Space Mono', monospace;
 	z-index: 30;
 }
